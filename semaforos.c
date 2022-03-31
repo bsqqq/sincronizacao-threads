@@ -31,7 +31,7 @@ void* comecar_contagem(void* arg) {
 
     // e destravo o meu recurso para a próxima thread.
     pthread_mutex_unlock(&mutex);
-    printf("i = &lld\n", i);
+    printf("i = %lld\n", i);
   }
 }
 
